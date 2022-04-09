@@ -14,7 +14,7 @@ for i in range(len(array)):
 
 print(array)
 
-element =(5)
+element =5
 def binary_n(array, element, left, right):
     if left > right:
         return False
@@ -27,8 +27,7 @@ def binary_n(array, element, left, right):
     else:
         return binary_n(array, element, middle + 1, right)
 
-array = [i for i in range(0, 10)]
+print (element,"Позиция элемента")
 
-print(element,"Позиция элемента")
-
+print(binary_n)
 
